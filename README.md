@@ -12,5 +12,5 @@
  ERROR
 
  The following validations have failed for `packemon-build-formats`:
-   - Unknown fields: name, packemon.
+   - Unknown fields: formats.
 ```
