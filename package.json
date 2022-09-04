@@ -1,0 +1,32 @@
+{
+  "name": "packemon-build-formats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "packemon build"
+  },
+  "author": "azu",
+  "license": "MIT",
+  "devDependencies": {
+    "packemon": "^2.4.0"
+  },
+  "packemon": {
+    "name": "package",
+    "packemon": {
+      "inputs": {
+        "index": "src/index.ts"
+      },
+      "platform": [
+        "node",
+        "browser"
+      ],
+      "formats": [
+        "lib",
+        "esm",
+        "umd"
+      ],
+      "namespace": "Example"
+    }
+  }
+}
